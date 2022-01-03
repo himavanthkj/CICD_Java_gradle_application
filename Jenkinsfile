@@ -1,5 +1,5 @@
 pipeline{
-    agent any 
+    agent npne 
     environment{
         VERSION = "${env.BUILD_ID}"
     }
